@@ -10,7 +10,7 @@ const Video = () => {
       </video>
       <div className='content'>
         <h1>How do you create your daily joy ?</h1>
-        <p>Simply, it's our responsibility!</p>
+        <p>Simply, it's our responsibility !</p>
       </div>
     </div>
   );
