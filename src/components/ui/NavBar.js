@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, Image } from 'semantic-ui-react';
+import { Menu, Image, Segment } from 'semantic-ui-react';
 import Logo from '../assets/images/logo.jpg';
 import './navbar.css';
 
@@ -13,7 +13,7 @@ export default class MenuExampleSecondary extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Menu pointing stackable inverted color='green'>
+      <Menu inverted pointing secondary stackable color='red' size='massive'>
         <Menu.Item>
           <Image src={Logo} alt='logo' size='small' />
         </Menu.Item>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/videos/video.css';
-import FileVideo from '../assets/videos/Video.mp4';
+import FileVideo from '../assets/videos/Video.webm';
 
 const Video = () => {
   return (
