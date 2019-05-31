@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <div className='hero'>
       <video autoPlay muted loop id='video'>
-        <source src={FileVideo} type='video/mp4' />
+        <source src={FileVideo} type='video/webm' />
       </video>
       <div className='content'>
         <h1>How do you create your daily joy ?</h1>
