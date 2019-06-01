@@ -19,9 +19,7 @@ class Menus extends Component {
     return (
       <div>
         <Divider hidden />
-        <Grid stackable>
-          <Grid.Column width={4}>
-            <Menu vertical pointing text secondary>
+            <Menu vertical size='mini' fixed='left' style={{top:'80px'}}>
               <Menu.Item
                 onClick={() =>
                   scrollToComponent(this.Fresh, {
@@ -145,9 +143,9 @@ class Menus extends Component {
                 BARKADELO CREPE
               </Menu.Item>
             </Menu>
-          </Grid.Column>
+
           {/* items  */}
-          <Grid.Column width={9}>
+          <div style={{marginLeft:'180px'}}>
             <section
               className='violet'
               ref={section => {
@@ -267,8 +265,7 @@ class Menus extends Component {
               <Divider />
               <Crepe />
             </section>
-          </Grid.Column>
-        </Grid>
+            </div>
       </div>
     );
   }
