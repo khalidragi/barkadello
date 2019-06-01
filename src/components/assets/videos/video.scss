@@ -21,7 +21,7 @@
   .content {
     padding: 12em;
     color: rgb(255, 255, 255);
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     h1 {
       margin: 0;
       text-transform: uppercase;
@@ -31,6 +31,46 @@
     p {
       font-size: 2em;
       margin-top: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    object-fit: scale-down;
+    width: 100%;
+    video {
+      position: absolute;
+      z-index: -1;
+      top: 40%;
+      left: 40%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      overflow: hidden;
+    }
+    .content {
+      padding: 6.1em;
+      color: rgb(255, 255, 255);
+      background: rgba(0, 0, 0, 0.1);
+      text-align: left;
+      h1 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: 400;
+      }
+      p {
+        font-size: 2em;
+        margin-top: 0;
+      }
     }
   }
 }

@@ -17,7 +17,8 @@ import Crepe from '../menus/Crepe';
 class Menus extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div>
+        <Divider hidden />
         <Grid stackable>
           <Grid.Column width={4}>
             <Menu vertical pointing text secondary>
@@ -268,7 +269,7 @@ class Menus extends Component {
             </section>
           </Grid.Column>
         </Grid>
-      </React.Fragment>
+      </div>
     );
   }
 }

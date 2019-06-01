@@ -15,9 +15,9 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/menus' component={Menus} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/menus' component={Menus} />
         </Switch>
       </BrowserRouter>
     </div>

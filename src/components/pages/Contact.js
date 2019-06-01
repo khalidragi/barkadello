@@ -44,6 +44,7 @@ class Contact extends Component {
   render() {
     return (
       <Container>
+        <Divider hidden />
         <Header size='large'>Our Stores are Near</Header>
         <Divider />
         <Grid stackable columns={3}>
