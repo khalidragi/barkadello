@@ -3,7 +3,7 @@
 
 # Barkadello
 
-Personal habit tracker app.
+
 
 ### `In Progress`
 

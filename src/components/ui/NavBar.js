@@ -11,19 +11,16 @@ export default class NavBar extends Component {
 
   render() {
     const { activeItem } = this.state;
-    // const trigger = (
-    //   <span>
-    //     <Icon name='th' />
-    //   </span>
-    // );
+
     return (
       <div>
         <Responsive minWidth={800}>
           <Menu
             inverted
             pointing
+            fixed='top'
             secondary
-            size='massive'
+            size='large'
             style={{ backgroundColor: '#d53032' }}>
             <Menu.Item style={{ padding: 0 }}>
               <Image src={Logo} alt='logo' size='small' />
@@ -66,6 +63,7 @@ export default class NavBar extends Component {
             inverted
             pointing
             secondary
+            fixed='top'
             size='massive'
             style={{ backgroundColor: '#d53032' }}>
             <Menu.Item style={{ padding: 0 }}>

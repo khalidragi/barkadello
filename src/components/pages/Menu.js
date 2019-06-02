@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Header, Divider, Menu } from 'semantic-ui-react';
+import { Header, Divider, Menu } from 'semantic-ui-react';
 import scrollToComponent from 'react-scroll-to-component';
 import Fresh from '../menus/Fresh';
 import Soft from '../menus/Soft';

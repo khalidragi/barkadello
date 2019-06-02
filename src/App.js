@@ -13,12 +13,14 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <NavBar />
+        <main style={{marginTop:'75px'}}>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
           <Route path='/menus' component={Menus} />
         </Switch>
+        </main>
       </BrowserRouter>
     </div>
   );
