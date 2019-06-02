@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Divider, Menu } from 'semantic-ui-react';
+import { Grid, Header, Divider, Menu } from 'semantic-ui-react';
 import scrollToComponent from 'react-scroll-to-component';
 import Fresh from '../menus/Fresh';
 import Soft from '../menus/Soft';
@@ -20,42 +20,80 @@ class Menus extends Component {
       <div>
         <Divider hidden />
             <Menu vertical size='mini' fixed='left' style={{top:'80px'}}>
-              <Menu.Item
+            <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.Fresh, {
-                    offset: 0,
+                  scrollToComponent(this.Special, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                FRESH JUICES & COCKTAILS
+                Barkadello Specials
               </Menu.Item>
-
               <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.Soft, {
-                    offset: 0,
+                  scrollToComponent(this.Crepe, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                SOFT BEVERAGES
+                BARKADELO CREPE
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.IceCream, {
-                    offset: 0,
+                  scrollToComponent(this.Waffle, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                BARKADELO ICE CREAM
+                BARKADELO WAFFLE
               </Menu.Item>
-
+              <Menu.Item
+                onClick={() =>
+                  scrollToComponent(this.Pancake, {
+                    offset: -80,
+                    align: 'top',
+                    duration: 500
+                  })
+                }>
+                BARKADELO PANCAKE
+              </Menu.Item>
+              <Menu.Item
+                onClick={() =>
+                  scrollToComponent(this.Sticks, {
+                    offset: -80,
+                    align: 'top',
+                    duration: 500
+                  })
+                }>
+                BARKADELO STICKS
+              </Menu.Item>
+              <Menu.Item
+                onClick={() =>
+                  scrollToComponent(this.Dessert, {
+                    offset: -80,
+                    align: 'top',
+                    duration: 500
+                  })
+                }>
+                BARKADELO DESSERT
+              </Menu.Item>
+              <Menu.Item
+                onClick={() =>
+                  scrollToComponent(this.Coffe, {
+                    offset: -80,
+                    align: 'top',
+                    duration: 500
+                  })
+                }>
+                BARKADELO’S SPEACIALTY COFFEE
+              </Menu.Item>
               <Menu.Item
                 onClick={() =>
                   scrollToComponent(this.IcedCoffe, {
-                    offset: 0,
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
@@ -65,7 +103,7 @@ class Menus extends Component {
               <Menu.Item
                 onClick={() =>
                   scrollToComponent(this.Smoothies, {
-                    offset: 0,
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
@@ -74,106 +112,109 @@ class Menus extends Component {
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.Coffe, {
-                    offset: 0,
+                  scrollToComponent(this.Fresh, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                BARKADELO’S SPEACIALTY COFFEE
+                FRESH JUICES & COCKTAILS
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.SomeHot, {
-                    offset: 0,
+                  scrollToComponent(this.IceCream, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                SOME LIKE IT HOT
+                BARKADELO ICE CREAM
               </Menu.Item>
+
               <Menu.Item
                 onClick={() =>
-                  scrollToComponent(this.Pancake, {
-                    offset: 0,
+                  scrollToComponent(this.Soft, {
+                    offset: -80,
                     align: 'top',
                     duration: 500
                   })
                 }>
-                BARKADELO PANCAKE
-              </Menu.Item>
-              <Menu.Item
-                onClick={() =>
-                  scrollToComponent(this.Dessert, {
-                    offset: 0,
-                    align: 'top',
-                    duration: 500
-                  })
-                }>
-                BARKADELO DESSERT
-              </Menu.Item>
-              <Menu.Item
-                onClick={() =>
-                  scrollToComponent(this.Waffle, {
-                    offset: 0,
-                    align: 'top',
-                    duration: 500
-                  })
-                }>
-                BARKADELO WAFFLE
-              </Menu.Item>
-              <Menu.Item
-                onClick={() =>
-                  scrollToComponent(this.Sticks, {
-                    offset: 0,
-                    align: 'top',
-                    duration: 500
-                  })
-                }>
-                BARKADELO STICKS
-              </Menu.Item>
-              <Menu.Item
-                onClick={() =>
-                  scrollToComponent(this.Crepe, {
-                    offset: 0,
-                    align: 'top',
-                    duration: 500
-                  })
-                }>
-                BARKADELO CREPE
+                SOFT BEVERAGES
               </Menu.Item>
             </Menu>
 
           {/* items  */}
+          <Divider hidden />
           <div style={{marginLeft:'180px'}}>
-            <section
-              className='violet'
+          <section
+              className='red'
               ref={section => {
-                this.Fresh = section;
+                this.Special = section;
               }}>
-              <Header as='h3'>FRESH JUICES & COCKTAILS</Header>
+              <Header as='h3'>Barkadello Specials</Header>
               <Divider />
-              <Fresh />
+              Specials
             </section>
             <Divider hidden />
             <section
-              className='indigo'
+              className='red'
               ref={section => {
-                this.Soft = section;
+                this.Crepe = section;
               }}>
-              <Header as='h3'>SOFT BEVERAGES</Header>
+              <Header as='h3'>BARKADELO CREPE</Header>
               <Divider />
-              <Soft />
+              <Crepe />
             </section>
             <Divider hidden />
             <section
-              className='blue'
+              className='red'
               ref={section => {
-                this.IceCream = section;
+                this.Waffle = section;
               }}>
-              <Header as='h3'>BARKADELO ICE CREAM</Header>
+              <Header as='h3'>BARKADELO WAFFLE</Header>
               <Divider />
-              <IceCream />
+              <Waffle />
+            </section>
+            <Divider hidden />
+            <section
+              className='red'
+              ref={section => {
+                this.Pancake = section;
+              }}>
+              <Header as='h3'>BARKADELO PANCAKE</Header>
+              <Divider />
+              <Pancake />
+            </section>
+            <Divider hidden />
+            <section
+              className='red'
+              ref={section => {
+                this.Sticks = section;
+              }}>
+              <Header as='h3'>BARKADELO STICKS</Header>
+              <Divider />
+              <Sticks />
+            </section>
+            <Divider hidden />
+            <section
+              className='red'
+              ref={section => {
+                this.Dessert = section;
+              }}>
+              <Header as='h3'>BARKADELO DESSERT</Header>
+              <Divider />
+              <Dessert />
+            </section>
+             <Divider hidden />
+            <section
+              className='orange'
+              ref={section => {
+                this.Coffe = section;
+              }}>
+              <Header as='h3'>BARKADELO’S SPEACIALTY COFFEE</Header>
+              <Divider />
+              <Coffe />
+              <SomeHot />
             </section>
             <Divider hidden />
             <section
@@ -197,73 +238,33 @@ class Menus extends Component {
             </section>
             <Divider hidden />
             <section
-              className='orange'
+              className='violet'
               ref={section => {
-                this.Coffe = section;
+                this.Fresh = section;
               }}>
-              <Header as='h3'>BARKADELO’S SPEACIALTY COFFEE</Header>
+              <Header as='h3'>FRESH JUICES & COCKTAILS</Header>
               <Divider />
-              <Coffe />
+              <Fresh />
+            </section>
+            <Divider hidden />
+             <section
+              className='blue'
+              ref={section => {
+                this.IceCream = section;
+              }}>
+              <Header as='h3'>BARKADELO ICE CREAM</Header>
+              <Divider />
+              <IceCream />
             </section>
             <Divider hidden />
             <section
-              className='red'
+              className='indigo'
               ref={section => {
-                this.SomeHot = section;
+                this.Soft = section;
               }}>
-              <Header as='h3'>SOME LIKE IT HOT</Header>
+              <Header as='h3'>SOFT BEVERAGES</Header>
               <Divider />
-              <SomeHot />
-            </section>
-            <Divider hidden />
-            <section
-              className='red'
-              ref={section => {
-                this.Pancake = section;
-              }}>
-              <Header as='h3'>BARKADELO PANCAKE</Header>
-              <Divider />
-              <Pancake />
-            </section>
-            <Divider hidden />
-            <section
-              className='red'
-              ref={section => {
-                this.Dessert = section;
-              }}>
-              <Header as='h3'>BARKADELO DESSERT</Header>
-              <Divider />
-              <Dessert />
-            </section>
-            <Divider hidden />
-            <section
-              className='red'
-              ref={section => {
-                this.Waffle = section;
-              }}>
-              <Header as='h3'>BARKADELO WAFFLE</Header>
-              <Divider />
-              <Waffle />
-            </section>
-            <Divider hidden />
-            <section
-              className='red'
-              ref={section => {
-                this.Sticks = section;
-              }}>
-              <Header as='h3'>BARKADELO STICKS</Header>
-              <Divider />
-              <Sticks />
-            </section>
-            <Divider hidden />
-            <section
-              className='red'
-              ref={section => {
-                this.Crepe = section;
-              }}>
-              <Header as='h3'>BARKADELO CREPE</Header>
-              <Divider />
-              <Crepe />
+              <Soft />
             </section>
             </div>
       </div>
