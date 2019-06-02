@@ -15,6 +15,9 @@ import Sticks from '../menus/Sticks';
 import Crepe from '../menus/Crepe';
 
 class Menus extends Component {
+    componentDidMount() {
+    scrollToComponent(this.Special, { offset: -80, align: 'top', duration: 500});
+  }
   render() {
     return (
       <div>
