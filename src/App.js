@@ -7,6 +7,7 @@ import Contact from './components/pages/Contact';
 import FranchiseForm from './components/pages/Franchise';
 
 
+
 import './App.css';
 import Menus from './components/pages/Menu';
 
