@@ -36,6 +36,13 @@ export default class NavBar extends Component {
               />
               <Menu.Item
                 as={Link}
+                to='/menus'
+                name='Our Menu'
+                active={activeItem === 'Our Menu'}
+                onClick={this.handleItemClick}
+              />
+              <Menu.Item
+                as={Link}
                 to='/about'
                 name='About'
                 active={activeItem === 'About'}
@@ -50,9 +57,9 @@ export default class NavBar extends Component {
               />
               <Menu.Item
                 as={Link}
-                to='/menus'
-                name='Our Menu'
-                active={activeItem === 'Our Menu'}
+                to='/franchise'
+                name='Franchise'
+                active={activeItem === 'Franchise'}
                 onClick={this.handleItemClick}
               />
             </Menu.Menu>
@@ -89,6 +96,9 @@ export default class NavBar extends Component {
                   </Dropdown.Item>
                   <Dropdown.Item to='/contact' as={Link}>
                     Contact Us
+                  </Dropdown.Item>
+                  <Dropdown.Item to='/franchise' as={Link}>
+                    Franchise
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>

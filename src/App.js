@@ -4,6 +4,7 @@ import NavBar from './components/ui/NavBar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
+import FranchiseForm from './components/pages/FranchiseForm';
 
 
 import './App.css';
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
           <Route path='/menus' component={Menus} />
+          <Route path='/franchise' component={FranchiseForm} />
         </Switch>
         </main>
       </BrowserRouter>
