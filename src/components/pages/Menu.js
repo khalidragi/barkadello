@@ -41,7 +41,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO CREPE
+                Barkadello Crepe
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -51,7 +51,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO WAFFLE
+                Barkadello Waffle
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -61,7 +61,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO PANCAKE
+                Barkadello Pancake
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -71,7 +71,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO STICKS
+                Barkadello Sticks
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -81,7 +81,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO DESSERT
+                Barkadello Dessert
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -91,7 +91,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO’S SPEACIALTY COFFEE
+                Barkadello's Speciallity Coffe
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -101,7 +101,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                ICED COFFEE
+                Iced Coffe
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -111,7 +111,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                SMOOTHIES & MILK SHAKE
+                Smoothies & Milk Shake
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -121,7 +121,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                FRESH JUICES & COCKTAILS
+                Fresh Juices & Coctails
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
@@ -131,7 +131,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                BARKADELO ICE CREAM
+                Barkadello Ice Cream
               </Menu.Item>
 
               <Menu.Item
@@ -142,7 +142,7 @@ class Menus extends Component {
                     duration: 500
                   })
                 }>
-                SOFT BEVERAGES
+                Soft Beverages
               </Menu.Item>
             </Menu>
 
@@ -154,7 +154,7 @@ class Menus extends Component {
               ref={section => {
                 this.Special = section;
               }}>
-              <Header as='h4'>Barkadello Specials</Header>
+              <Header as='h3'>Barkadello Specials</Header>
               <Divider />
               Specials
             </section>
@@ -164,7 +164,7 @@ class Menus extends Component {
               ref={section => {
                 this.Crepe = section;
               }}>
-              <Header as='h4'>BARKADELO CREPE</Header>
+              <Header as='h3'>Barkadello Crepe</Header>
               <Divider />
               <Crepe />
             </section>
@@ -174,7 +174,7 @@ class Menus extends Component {
               ref={section => {
                 this.Waffle = section;
               }}>
-              <Header as='h3'>BARKADELO WAFFLE</Header>
+              <Header as='h3'>Barkadello Waffle</Header>
               <Divider />
               <Waffle />
             </section>
@@ -184,7 +184,7 @@ class Menus extends Component {
               ref={section => {
                 this.Pancake = section;
               }}>
-              <Header as='h3'>BARKADELO PANCAKE</Header>
+              <Header as='h3'>Barkadello Pancake</Header>
               <Divider />
               <Pancake />
             </section>
@@ -194,7 +194,7 @@ class Menus extends Component {
               ref={section => {
                 this.Sticks = section;
               }}>
-              <Header as='h3'>BARKADELO STICKS</Header>
+              <Header as='h3'>Barkadello Sticks</Header>
               <Divider />
               <Sticks />
             </section>
@@ -204,7 +204,7 @@ class Menus extends Component {
               ref={section => {
                 this.Dessert = section;
               }}>
-              <Header as='h3'>BARKADELO DESSERT</Header>
+              <Header as='h3'>Barkadello Dessert</Header>
               <Divider />
               <Dessert />
             </section>
@@ -214,7 +214,7 @@ class Menus extends Component {
               ref={section => {
                 this.Coffe = section;
               }}>
-              <Header as='h3'>BARKADELO’S SPEACIALTY COFFEE</Header>
+              <Header as='h3'>Barkadello's Speciallity Coffe</Header>
               <Divider />
               <Coffe />
               <SomeHot />
@@ -225,7 +225,7 @@ class Menus extends Component {
               ref={section => {
                 this.IcedCoffe = section;
               }}>
-              <Header as='h3'>ICED COFFE</Header>
+              <Header as='h3'>Iced Coffe</Header>
               <Divider />
               <IcedCoffe />
             </section>
@@ -235,7 +235,7 @@ class Menus extends Component {
               ref={section => {
                 this.Smoothies = section;
               }}>
-              <Header as='h3'>SMOOTHIES & MILK SHAKE</Header>
+              <Header as='h3'>Smoothies & Milk Shake</Header>
               <Divider />
               <Smoothies />
             </section>
@@ -245,7 +245,7 @@ class Menus extends Component {
               ref={section => {
                 this.Fresh = section;
               }}>
-              <Header as='h3'>FRESH JUICES & COCKTAILS</Header>
+              <Header as='h3'>Fresh Juices & Cocktails</Header>
               <Divider />
               <Fresh />
             </section>
@@ -255,7 +255,7 @@ class Menus extends Component {
               ref={section => {
                 this.IceCream = section;
               }}>
-              <Header as='h3'>BARKADELO ICE CREAM</Header>
+              <Header as='h3'>Barkadello Ice Cream</Header>
               <Divider />
               <IceCream />
             </section>
@@ -265,7 +265,7 @@ class Menus extends Component {
               ref={section => {
                 this.Soft = section;
               }}>
-              <Header as='h3'>SOFT BEVERAGES</Header>
+              <Header as='h3'>Soft Bevarages</Header>
               <Divider />
               <Soft />
             </section>
