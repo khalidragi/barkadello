@@ -154,7 +154,7 @@ class Menus extends Component {
               ref={section => {
                 this.Special = section;
               }}>
-              <Header as='h3'>Barkadello Specials</Header>
+              <Header as='h4'>Barkadello Specials</Header>
               <Divider />
               Specials
             </section>
@@ -164,7 +164,7 @@ class Menus extends Component {
               ref={section => {
                 this.Crepe = section;
               }}>
-              <Header as='h3'>BARKADELO CREPE</Header>
+              <Header as='h4'>BARKADELO CREPE</Header>
               <Divider />
               <Crepe />
             </section>
