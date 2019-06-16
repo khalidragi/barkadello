@@ -8,7 +8,7 @@ const Footer = () => (
             <Icon className='footer-icons' link name='whatsapp 'size='big' />
             <Icon className='footer-icons' link name='instagram 'size='big' />
             <Icon className='footer-icons' link name='facebook square 'size='big' />
-            <p>    Made with ❤ by Khalid Ragi, © 2019 </p>
+            <p>Made with ❤ by Khalid Ragi, © 2019 </p>
   </footer>
 );
 
