@@ -4,7 +4,7 @@ import NavBar from './components/ui/NavBar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import FranchiseForm from './components/pages/FranchiseForm';
+import FranchiseForm from './components/pages/Franchise';
 
 
 import './App.css';
