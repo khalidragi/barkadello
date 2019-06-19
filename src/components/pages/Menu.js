@@ -22,7 +22,7 @@ class Menus extends Component {
     return (
       <div>
         <Divider hidden />
-            <Menu vertical size='mini' fixed='left' style={{top:'80px'}}>
+            <Menu vertical size='mini' fixed='left' style={{top:'80px', height:'420px'}}>
             <Menu.Item
                 onClick={() =>
                   scrollToComponent(this.Special, {
