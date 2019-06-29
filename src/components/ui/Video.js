@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/videos/video.css';
 import FileVideo from '../assets/videos/Video.webm';
-import Waffle from '../assets/videos/waffle.jpg'
+import Waffle from '../assets/videos/waffle.jpg';
 
 const Video = () => {
   return (
