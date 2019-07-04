@@ -6,11 +6,16 @@ import photo from '../assets/images/strawberry.jpg';
 const MenuHome = () => (
   <Grid stackable verticalAlign='middle'>
     <Grid.Column width={5} style={{ textAlign: 'center' }}>
-      <Header as='h2' style={{ color: '#009246' }}>
+      <Header as='h2' style={{ fontWeight: '400' }}>
         Our concept is to make people much happier through chocolate shots in
         new mixes with sweets, fruits, crepe, waffles and drinks.
       </Header>
-      <Button size='huge' as={Link} to='/menus' color='youtube'>
+      <Button
+        size='huge'
+        as={Link}
+        to='/menus'
+        color='youtube'
+        style={{ fontWeight: '300' }}>
         <Icon name='clipboard' /> Check Our Menu..
       </Button>
     </Grid.Column>
